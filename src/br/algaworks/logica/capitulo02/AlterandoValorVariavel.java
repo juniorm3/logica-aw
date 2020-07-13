@@ -1,7 +1,7 @@
 package br.algaworks.logica.capitulo02;
 import java.util.Scanner;
 
-public class AlterandoValorVAriavel {
+public class AlterandoValorVariavel {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
