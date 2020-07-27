@@ -1,4 +1,4 @@
-package br.algaworks.logica.capitulo04;
+package br.algaworks.logica.capitulo06.iteracao;
 
 public class Exercicio_02 {
 

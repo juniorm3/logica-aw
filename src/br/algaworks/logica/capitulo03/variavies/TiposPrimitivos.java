@@ -1,4 +1,4 @@
-package br.algaworks.logica.capitulo03;
+package br.algaworks.logica.capitulo03.variavies;
 
 public class TiposPrimitivos {
 
