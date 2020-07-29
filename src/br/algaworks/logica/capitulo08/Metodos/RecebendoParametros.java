@@ -18,7 +18,7 @@ public class RecebendoParametros {
 		System.out.println("O curso que você deseja é o: ");
 		Integer posicaoCursoEscolhido = scanner.nextInt();
 
-		Boolean posicaoValida = posicaoCursoEscolhido >= 0 && posicaoCursoEscolhido < cursos.length;
+		Boolean posicaoValida = validarPosicaoEscolhida(cursos, posicaoCursoEscolhido);
 
 		if (!posicaoValida) {
 			encerrarProgramaPorCausaDaPosicaoInvalida();
@@ -35,8 +35,7 @@ public class RecebendoParametros {
 		System.out.println("Sua forma de pagamento escolhida é: ");
 		Integer posicaoFormaPagamentoEscolhida = scanner.nextInt();
 		
-		posicaoValida = posicaoFormaPagamentoEscolhida >= 0 
-					&& posicaoFormaPagamentoEscolhida < formasPagamento.length;
+		posicaoValida = validarPosicaoEscolhida(formasPagamento, posicaoFormaPagamentoEscolhida);
 		
 		if (!posicaoValida) {
 			encerrarProgramaPorCausaDaPosicaoInvalida();
@@ -51,6 +50,11 @@ public class RecebendoParametros {
 
 		scanner.close();
 
+	}
+
+
+	private static boolean validarPosicaoEscolhida(String[] vetor, Integer selecao) {
+		return selecao >= 0 && selecao < vetor.length;
 	}
 
 
