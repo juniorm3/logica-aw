@@ -20,7 +20,7 @@ public class Exercicio {
 			atividade = scanner.nextLine();
 			atividades.add(atividade);
 		}
-		
+				
 		System.out.println("Fim...");
 
 		Path arquivo = Paths.get("D:\\ESTUDO\\tmp\\aula\\exercicio.txt");
