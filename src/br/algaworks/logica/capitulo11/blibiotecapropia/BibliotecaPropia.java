@@ -2,7 +2,6 @@ package br.algaworks.logica.capitulo11.blibiotecapropia;
 
 import br.algaworks.logica.capitulo11.algaworksconsole.Interacao;
 
-
 public class BibliotecaPropia {
 
 	public static void main(String[] args) {
